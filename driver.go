@@ -449,7 +449,7 @@ func getHuaweiBaseClient(s state) *common.Client {
 	return common.NewClient(
 		s.AccessKey,
 		s.SecretKey,
-		common.DefaultAPIEndpoint,
+		"prod-cloud-ocb.orange-business.com",
 		s.Region,
 		s.ProjectID,
 	)
