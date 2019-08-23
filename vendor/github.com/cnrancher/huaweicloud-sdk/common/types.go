@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	DefaultAPIEndpoint = "myhuaweicloud.com"
+	DefaultAPIEndpoint = "prod-cloud-ocb.orange-business.com"
 	DefaultSchema      = "https"
 	DefaultCidr        = "192.168.0.0/24"
 	DefaultGateway     = "192.168.0.1"
