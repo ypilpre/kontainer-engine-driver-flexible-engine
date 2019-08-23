@@ -136,7 +136,7 @@ func fillCreateOptions(driverFlag *types.DriverFlags) {
 	driverFlag.Options["region"] = &types.Flag{
 		Type:  types.StringType,
 		Usage: "The region to launch the cluster",
-		Value: "cn-north-1",
+		Value: "eu-west-0",
 	}
 	driverFlag.Options["access-key"] = &types.Flag{
 		Type:  types.StringType,
@@ -149,7 +149,7 @@ func fillCreateOptions(driverFlag *types.DriverFlags) {
 	driverFlag.Options["api-endpoint"] = &types.Flag{
 		Type:  types.StringType,
 		Usage: "The CCE API Endpoint used",
-		Value: "myhuaweicloud.com",
+		Value: "prod-cloud-ocb.orange-business.com",
 	}
 	//cluster parameters
 	driverFlag.Options["cluster-type"] = &types.Flag{
@@ -238,7 +238,7 @@ func fillCreateOptions(driverFlag *types.DriverFlags) {
 	driverFlag.Options["available-zone"] = &types.Flag{
 		Type:  types.StringType,
 		Usage: "The available zone which the nodes in",
-		Value: "cn-north-1a",
+		Value: "eu-west-0a",
 	}
 	driverFlag.Options["node-labels"] = &types.Flag{
 		Type:  types.StringSliceType,
